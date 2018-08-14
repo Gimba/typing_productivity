@@ -36,8 +36,7 @@ def update_tray():
     image = icon_generator(ratio, color)
     icon._icon = image
     icon._update_icon()
-    print('backspace used {}/{} in the last 20 minutes, ratio: {}, color: {}'.format(counter//2, total//2, ratio*1.2,
-                                                                                     color))
+    print('backspace used {}/{} in the last 20 minutes, ratio: {}'.format(counter//2, total//2, ratio*1.2))
 
 
 def icon_generator(n, color):
